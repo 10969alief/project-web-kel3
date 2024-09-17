@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Sablon dan Kaos Polos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        
+
+        body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2a3235, #2a3235, #2a3235); /* updated background color */
+    color: #333;
+    background-attachment: fixed; 
+}
+
+header {
+    background: linear-gradient(90deg, rgba(42, 50, 53, 255), rgba(42, 50, 53, 255)), url('https://via.placeholder.com/1500x600'); 
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0f0e0e;
+    padding: 10px 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: rgb(246, 240, 240);
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    background-color: #565353;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 4px 16px rgba(115, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0c0d0c;
+    text-transform: uppercase,lowercase;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #0c0c0c;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #25292e;
+    color: white;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+footer p {
+    margin: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav a {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>sablon baju dan kaos polos</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#produk">Produk</a>
+    <a href="#promo">Promo</a>
+    <a href="#kontak">Kontak</a>
+    <a href="#about-us">About Us</a>
+</nav>
+
+<main>
+    
+    <section id="home">
+        <h2>No Brand: sablon & digital print</h2>
+        <p>Menjual kaos polos start from 35ribuan dan jasa Sablon digital printing cuma 3ribuannn</p>
+        <img src="LOGO.jpeg" alt="LOGO">
+    </section>
+
+   
+    <section>
+        <h2>Daftar Produk</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Gambar</th>
+                    <th>Nama Produk</th>
+                    <th>Kategori</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="HOODIE.jpeg" alt="HOODIE" /></td>
+                    <td>Hoodie</td>
+                    <td>Pakaian</td>
+                    <td>96K</td>
+                </tr>
+                <tr>
+                    <td><img src="SABLON KAOS.jpeg" alt="SABLON JAKET" /></td>
+                    <td>Kaos Polos</td>
+                    <td>Pakaian</td>
+                    <td>30K</td>
+                </tr>
+                <tr>
+                    <td><img src="SABLON.jpeg" alt="SABLON" /></td>
+                    <td>Sablon DTF</td>
+                    <td>Sablon</td>
+                    <td>45K</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+
+   
+    <section id="promo">
+        <h2>Promo Terbaru</h2>
+        <video width="640" height="480" controls autoplay>
+            <source src="PROMO VID.mp4" type="video/mp4">
+            <source src="PROMO-VID.ogg" type="audio/ogg">
+            </video>
+
+    </section>
+
+   
+    <section id="kontak">
+        <h2>Hubungi Kami</h2>
+        <p>Instagram: @nobrand.officiall</p>
+        <p>Tiktok: @nobrand.officiall</p>
+
+        
+        <h3>Lokasi Kami</h3>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31791.017379160894!2d119.4132785332581!3d-5.12348622406984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbf03630d10ad8f%3A0xdcee912d6aea2c8!2sNo%20Brand!5e0!3m2!1sid!2sid!4v1726589284904!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <section id="about-us">
+        <h2>Tentang Kami</h2>
+        <p>
+            Selamat datang di NoBrand, tempat di mana kreativitas bertemu dengan keahlian dalam dunia sablon. Kami adalah toko baju sablon kreatif dan termurah yang berlokasi di jantung kota Makassar, Sulawesi Selatan. Didirikan pada tahun 2024, NoBrand telah menjadi destinasi utama bagi mereka yang mencari pakaian custom dengan desain unik dan kualitas cetak yang superior.
+
+            Sebagai penyedia layanan sablon terkemuka, kami berkomitmen untuk menghadirkan kualitas terbaik dan kepuasan pelanggan yang tak tertandingi. Dengan pengalaman dan dedikasi kami, kami terus berinovasi untuk memberikan produk yang memenuhi standar tertinggi dan mencerminkan kreativitas setiap pelanggan.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Copyright Kelompok 3</p>
+</footer>
+
+</body>
+</html>
